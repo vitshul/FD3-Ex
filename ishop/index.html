@@ -13,10 +13,18 @@
   <script src="Ishop.js"></script>
   <link rel="stylesheet" type="text/css" href="Ishop.css">
 
+  
   <script>
-    
+  
+  var IshopName = 'Интернет магазин АВС';
+
+  var IshopGoods = [
+            { code: 1, nameGoods: 'TV', cost: 1000, urlFoto: 'foto/tv.webp', balance: 5},
+            { code: 2, nameGoods: 'Notebook', cost: 1600, urlFoto: 'foto/notebook.jpeg', balance: 12 },
+            { code: 3, nameGoods: 'Freezer', cost: 600, urlFoto: 'foto/freezer.jpg', balance: 2 },]; 
+
     ReactDOM.render(
-      React.createElement(IshopComponent),
+      React.createElement(IshopComponent,{title:IshopName, goods:IshopGoods}),
       document.getElementById('container') 
     );
 

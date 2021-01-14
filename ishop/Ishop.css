@@ -1,10 +1,33 @@
 .IshopComponentFrame{
-    border: double gray 3px;
-    padding: 3px 7px;
-    background-color: #F0F0F0; 
+color: blue; 
 }
 
 .IshopComponentText
 {
+  color: black;
   font-style: italic;
+  border: solid gray 3px;
+  padding: 3px 7px;
+  background-color: wheat; 
+}
+
+.goods{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: 35px 35px 35px;
+
+    border: solid black 1px;
+    margin: 3px;
+    background-color: whitesmoke; 
+}
+
+.goods>img {
+    height: 100px;
+    grid-column: 1;
+    grid-row: span 3;
+    margin: auto;
+}
+.goods>div{
+    grid-column: 2;
+    margin: auto 5px;
 }
