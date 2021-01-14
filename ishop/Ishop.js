@@ -4,11 +4,9 @@ var IshopComponent = React.createClass({
 
     render: function(){
 
-        return React.DOM.div(
-            {className:'IshopComponentFrame'},
-            React.DOM.h1(null,'HELLO!!!!'),
-            React.DOM.div({className:'IshopComponentText'},
-            'Start learn!'),
+        return React.DOM.div({className:'IshopComponentFrame'},
+            React.DOM.h1(null,"HELLO!!!!"),
+            React.DOM.div({className:'IshopComponentText'}, "Start learn!"),
         );
     },
 

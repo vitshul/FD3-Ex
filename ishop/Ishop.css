@@ -1,8 +1,10 @@
 .IshopComponentFrame{
-    border: double gray 3px;  
+    border: double gray 3px;
+    padding: 3px 7px;
+    background-color: #F0F0F0; 
 }
 
-.IshopComponentText{
-    font-style: italic;
-    border: double red 3px;  
+.IshopComponentText
+{
+  font-style: italic;
 }
