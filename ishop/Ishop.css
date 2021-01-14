@@ -1,0 +1,8 @@
+.IshopComponentFrame{
+    border: double gray 3px;  
+}
+
+.IshopComponentText{
+    font-style: italic;
+    border: double red 3px;  
+}
