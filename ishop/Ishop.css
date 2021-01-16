@@ -1,8 +1,8 @@
-.IshopComponentFrame{
+.Ishop .IshopComponentFrame{
 color: blue; 
 }
 
-.IshopComponentText
+.Ishop .IshopComponentText
 {
   color: black;
   font-style: italic;
@@ -10,8 +10,7 @@ color: blue;
   padding: 3px 7px;
   background-color: wheat; 
 }
-
-.goods{
+.Ishop .goods{
     display: grid;
     grid-template-columns: 150px 300px;
     grid-template-rows: 35px 35px 35px;
@@ -21,13 +20,13 @@ color: blue;
     background-color: whitesmoke; 
 }
 
-.goods>img {
+.Ishop .goods>img {
     height: 100px;
     grid-column: 1;
     grid-row: span 3;
     margin: auto;
 }
-.goods>div{
+.Ishop .goods>div{
     grid-column: 2;
     margin: auto 5px;
 }

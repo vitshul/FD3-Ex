@@ -19,7 +19,7 @@ var IshopComponent = React.createClass({
         );
 
 
-        return React.DOM.div({className:'IshopComponentFrame'},
+        return React.DOM.div({className:'Ishop'},
             React.DOM.h1({className:'IshopHead'},this.props.title),
             React.DOM.div({className:'IshopComponentText'}, storage),
         );
